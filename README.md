@@ -25,7 +25,7 @@
 
 ## Installation
 ### [tmsh](cfg_sync.sh)
-First, make sure you follow these steps
+```tmsh create ilx workspace ilxws_SLACK_BOT from-uri https://raw.githubusercontent.com/ArtiomL/f5-slack-bot/master/bin/ilxws.tgz```
 
 ## --help
 ```
