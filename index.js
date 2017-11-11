@@ -1,6 +1,6 @@
 /*
 	F5 Networks - Node.js: Slack Bot Client
-	https://github.com/ArtiomL/f5networks
+	https://github.com/ArtiomL/f5-slack-bot
 	Artiom Lichtenstein
 	v1.0.2, 05/11/2017
 */
