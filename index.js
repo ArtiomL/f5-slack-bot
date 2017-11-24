@@ -2,14 +2,14 @@
 	F5 Networks - Node.js: Slack Bot Client
 	https://github.com/ArtiomL/f5-slack-bot
 	Artiom Lichtenstein
-	v1.0.2, 05/11/2017
+	v1.0.3, 24/11/2017
 */
 
 'use strict';
 
 // Log level
 var intLogLevel = 0;
-var strLogID = '[-v1.0.2-171105-]';
+var strLogID = '[-v1.0.3-171124-]';
 
 function funLog(intMesLevel, strMessage, strMethod, objError) {
 	if (intLogLevel >= intMesLevel) {
@@ -38,6 +38,7 @@ objRtm.on(objClientEvents.RTM.AUTHENTICATED, function(objStartData) {
 });
 
 objRtm.on(objRtmEvents.MESSAGE, function(objMessage) {
+	var strStdout = '';
 	var arrMsgText = objMessage.text.toLowerCase().split(' ');
 	switch(arrMsgText[0]) {
 		case 'hello':
@@ -45,7 +46,7 @@ objRtm.on(objRtmEvents.MESSAGE, function(objMessage) {
 			strChannel = objMessage.channel;
 			break;
 		case 'status':
-			var strStdout = objShell.exec('tmsh show /ltm pool ' + strPool + ' members', {silent: true}).grep('State\|Ltm::Pool').stdout;
+			strStdout = objShell.exec('tmsh show /ltm pool ' + strPool + ' members', {silent: true}).grep('State\|Ltm::Pool').stdout;
 			objRtm.sendMessage('```' + strStdout + '```', objMessage.channel);
 			break;
 		case 'ena':
@@ -59,7 +60,7 @@ objRtm.on(objRtmEvents.MESSAGE, function(objMessage) {
 			}
 			break;
 		case 'tmsh':
-			var strStdout = objShell.exec(objMessage.text, {silent: true}).stdout;
+			strStdout = objShell.exec(objMessage.text, {silent: true}).stdout;
 			objRtm.sendMessage('```' + strStdout + '```', objMessage.channel);
 			break;
 	}
