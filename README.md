@@ -28,7 +28,10 @@ F5 integration with a Slack bot.
 &nbsp;&nbsp;
 
 ## Logging
+All logging is **disabled** by default. This is controlled by the `intLogLevel` variable in [index.js](index.js):
+```node
+// Log level to /var/log/f5-slack-bot (or stdout)
+var intLogLevel = 0;
 ```
---help
 
-```
+&nbsp;&nbsp;
