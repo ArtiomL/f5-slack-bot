@@ -7,7 +7,7 @@
 
 'use strict';
 
-// Log level
+// Log level to /var/log/f5-slack-bot (or stdout)
 var intLogLevel = 0;
 var strLogID = '[-v1.0.3-171124-]';
 
