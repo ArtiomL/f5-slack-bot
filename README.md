@@ -24,7 +24,7 @@
 
 
 ## Installation
-```curl -sL https://raw.githubusercontent.com/ArtiomL/f5-slack-bot/master/install.sh | bash -x -```
+```bash <(curl -sL https://github.com/ArtiomL/f5-slack-bot/raw/master/install.sh)```
 
 ## --help
 ```
