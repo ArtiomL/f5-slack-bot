@@ -8,4 +8,4 @@ tmsh create ilx workspace ilxws_SLACK_BOT from-uri https://raw.githubusercontent
 read -s -p "Enter Slack API Token: " str_AToken
 echo
 sed -i "s/|| ''/|| '$str_AToken'/" /var/ilx/workspaces/Common/ilxws_SLACK_BOT/extensions/ilxex_SLACK_BOT/index.js
-nohup /usr/bin/nodejs /var/ilx/workspaces/Common/ilxws_SLACK_BOT/extensions/ilxex_SLACK_BOT/index.js > /var/log/f5-slack-bot.log &
+nohup /usr/bin/nodejs /var/ilx/workspaces/Common/ilxws_SLACK_BOT/extensions/ilxex_SLACK_BOT/index.js > /var/log/f5-slack-bot &
