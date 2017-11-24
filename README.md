@@ -12,9 +12,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-	- [tmsh](#tmsh)
 - [Logging](#logging)
-- [Help](#--help)
 - [License](LICENSE)
 
 &nbsp;&nbsp;
@@ -27,7 +25,7 @@ F5 integration with a Slack bot.
 ## Installation
 ```bash <(curl -sL https://github.com/ArtiomL/f5-slack-bot/raw/master/install.sh)```
 
-## --help
+## Logging
 ```
 --help
 
