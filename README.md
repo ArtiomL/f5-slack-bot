@@ -24,6 +24,7 @@ F5 integration with a Slack bot.
 
 ## Installation
 Please review the install [script](install.sh) first!
+
 ```bash <(curl -sL https://github.com/ArtiomL/f5-slack-bot/raw/master/install.sh)```
 
 &nbsp;&nbsp;
