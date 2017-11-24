@@ -18,7 +18,7 @@
 &nbsp;&nbsp;
 
 ## Description
-F5 integration with a Slack bot.
+F5 [control](https://youtu.be/-nLz8mNx60E) and [logging](https://youtu.be/yNNSStlIYX0) integration with a Slack bot.
 
 &nbsp;&nbsp;
 
