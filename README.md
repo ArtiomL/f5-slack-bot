@@ -23,7 +23,7 @@ F5 integration with a Slack bot.
 &nbsp;&nbsp;
 
 ## Installation
-Please review the install [script](install.sh) first!
+Please review the [script](install.sh) first!
 
 ```bash <(curl -sL https://github.com/ArtiomL/f5-slack-bot/raw/master/install.sh)```
 
@@ -35,5 +35,3 @@ All logging is **disabled** by default. This is controlled by the `intLogLevel` 
 // Log level to /var/log/f5-slack-bot (or stdout)
 var intLogLevel = 0;
 ```
-
-&nbsp;&nbsp;
