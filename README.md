@@ -1,4 +1,4 @@
-# <img align="center" src="img/slack.png" height="70">&nbsp;&nbsp;f5-slack-bot
+# <img align="center" src="img/slack.svg" height="70">&nbsp;&nbsp;f5-slack-bot
 [![Releases](https://img.shields.io/github/release/ArtiomL/f5-slack-bot.svg)](https://github.com/ArtiomL/f5-slack-bot/releases)
 [![Commits](https://img.shields.io/github/commits-since/ArtiomL/f5-slack-bot/v1.0.0.svg?label=commits%20since)](https://github.com/ArtiomL/f5-slack-bot/commits/master)
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/ArtiomL/f5-slack-bot/graphs/code-frequency)
